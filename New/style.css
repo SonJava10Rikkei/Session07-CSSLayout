@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: aliceblue;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.top_container {
+    display: block;
+}
+.select {
+    display: inline-block;
+    background-color: rgb(6, 168, 93);
+    width: 20%;
+    height: 1200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* logo */
+.logo {
+    background-color: black;
+    height:65px ;
+
+}
+.logo img {
+    display: block;
+    width: 128px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.select_home {
+    background-color: blue;
+    margin-top: 20px;
+
+
+}
+.select_home li {
+    display: flex;
+        justify-content;
+    list-style: none;
+    
+
+}
+.icon_library {
+    
+
+}
+
+.select_home li div {
+    display
+}
+    
+.bar {
+    float: right;
+    width: 80%;
+    height: 900px;
+    background-color: rgb(201, 189, 212);
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(46, 43, 43, 0.747);
+    position: fixed;
+    top: 0;
+    left: 20%;
+
+}
+
+.content {
+    width: 100%;
+    height: 1200px;
+    background-color: rgba(78, 70, 70, 0.603);
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.play_text {
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play_list {
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.album {
+    width: 200px;
+    height: 280px;
+    border-radius: 5%;
+    background-color: rgba(15, 10, 10, 0.884);
+    margin: 10px;
+}
+
+.album img {
+    width: 160px;
+    height: 160px;
+    border-radius: 5%;
+    margin: 1.6rem;
+}
+
+.invite {
+    background-image: linear-gradient(90deg, rgb(201, 5, 201), rgb(5, 126, 207));
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.invite_text {
+    top: 5px;
+    width: 80%;
+
+}
+
+.invite_text p {
+    
+}
+
+.invite_bt {
+    background-color: rgb(255, 255, 255);
+
+    padding: 10px 32px;
+    border-radius: 25px;
+}
+
+.bt {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
