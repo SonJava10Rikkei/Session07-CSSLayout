@@ -1,0 +1,63 @@
+.header {
+    background-color: white;
+}
+
+article {
+    margin: 15px;
+    padding: 30px;
+    background-color: white;
+}
+
+header {
+    padding: 10px;
+    color: rgb(0, 153, 254);
+    background-color: rgb(240, 238, 238);
+}
+
+.navbar_logo {
+    font-size: 45px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar_search {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.navbar_search input {
+    position: relative;
+    border-radius: 37px;
+    height: 38px;
+    width: 537px;
+}
+
+.navigation_sidebar {
+    width: 308px;
+    height: 400px;
+}
+
+.navbar_search button {
+    top: 29px;
+    left: 570px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    position: absolute;
+}
+
+.navbar_infomation {
+    margin-left: 52px;
+}
+
+.navbar_infomation li {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.navbar_infomation a {
+    margin-left: 20px;
+    
+}
